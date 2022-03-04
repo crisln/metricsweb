@@ -1,19 +1,289 @@
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: Poppins", Sans-serif;
+}
+/*estilo facebook avanzado */
 .parrafo-curso {
   text-align: justify;
+  font-size: 14px;
+}
+.parrafo2 {
+  text-align: justify;
+  font-size: 14px;
+  color: #fff;
+}
+.contenedor-margenes {
+  margin-left: 20px;
 }
 .contenedor-atributo {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo2_c6d217ac-73dd-4214-b4d0-bf4ecb409643.jpg?v=1646315649);
   background-size: cover;
-  background-position: bottom center;
+  background-repeat: no-repeat;
 }
-.titulo1 {
+.fondo-seccion3 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Estrellas_1.jpg?v=1646334055);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 20px;
+}
+.fondo-seccion4{
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo3.jpg?v=1646342173);
+  background-position-x: center;
+}
+a.theBtn2 {
+  background-color: #ffff01;
+  color: #000;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-style: italic;
+  text-decoration: none;
+}
+a.theBtn2:hover {
+  background-color: #fff;
+}
+.titulo4b {
+  font-size: 6rem;
   font-weight: 700;
-  color: #ffff01;
+  color: transparent;
   margin-left: 20px;
+  -webkit-text-stroke: 1px #ffff01;
+  line-height: 80px;
+}
+.titulo3b {
+  font-size: 6rem;
+  margin-left: 20px;
+  margin-top: 0;
+  color: #ffff01;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.subtitulo3b {
+  margin-left: 20px;
+  font-size: 3rem;
+  margin-top: -20px;
+  font-weight: 300;
 }
 
-.sct1 {
+.img-personalizado {
+  width: 80%;
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+}
+.encabezado-titulo1 {
+  font-weight: 700;
+  color: #ffff01;
+  text-align: center;
+  font-size: 40px;
+  padding: 40px 0px 20px 0px;
+}
+.encabezado-titulo2 {
+  font-weight: 700;
+  color: #ffff01;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0px 20px 0px;
+}
+.imagen-porque {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  object-fit: cover;
+}
+.img-esto {
+  width: 80%;
+  object-fit: cover;
+}
+.contenedor-imagen-porque {
+  text-align: center;
+}
+img.one1 {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  position: relative;
+  top: 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+img.one1:hover {
+  top: -5px;
+}
+.img-aprenderas {
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.titulo1 {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #ffff01;
+}
+.titulo4b {
+  font-size: 6rem;
+  font-weight: 700;
+  color: transparent;
+  margin-left: 20px;
+  -webkit-text-stroke: 1px #ffff01;
+  line-height: 80px;
+}
+.parrafo {
+  text-align: justify;
+  color: #fff;
+  font-size: 14px;
+}
+.btn-sumate {
+  background: #563fc4;
+  color: #fff;
+  font-style: oblique;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+.btn-sumate:hover{
+  color:#fff;
+}
+.color-parrafo{
+  color:#4e4e4e;
+  text-align: justify;
+}
+.padding-diploma{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.texto-diploma{
+  font-weight: 600;
+  color:#4e4e4e;
+  font-size: 25px;
+}
+.repetidor {
+  background-repeat: repeat;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-position-x: center;
+}
+.parrafo1 {
+  color: #fff;
+  border-left: 6px solid #ffff01;
+}
+.subtitulo1 {
+  font-size: 25px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+.texto1 {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+/* fin estilo facebook avanzado */
+.parrfo {
+  text-align: justify;
+  color: #4e4e4e;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+.flt {
+  float: right;
+}
+
+div {
+  font-family: "Poppins", Sans-serif;
+}
+
+.titulogb1 {
+  color: #4e4e4e;
+
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.titulogb2 {
+  color: #c4c4c4;
+  font-family: "Poppins", Sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.titulosct2 {
+  color: #7c69f4;
+  font-family: "Poppins", Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+.str1 {
   display: flex;
+}
+
+#ulsct2 p {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+.sct2ct {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.sct3ct {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: transparent;
+  background-image: linear-gradient(100deg, #4304ad 43%, #4c5cea 89%);
+}
+
+.sct3ct h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.sct3ct p {
+  text-align: center;
+  color: #fff;
+
+  font-size: 14px;
+}
+
+.titulosct3 {
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.sub3ct {
+  display: grid;
   justify-content: center;
-  align-items: center;
+}
+
+.sub3row {
+  padding-top: 40px;
+}
+
+.sub1ctt {
+  margin-top: 60px;
+}
+
+.sct1ct {
+  margin-bottom: 60px;
+}
+
+.sct4 {
+  height: 100vh;
+  background-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/section4.jpg?v=1646334037");
 }
