@@ -107,16 +107,58 @@ a.theBtn2:hover {
   margin-top: -20px;
   font-weight: 600;
 }
-.conFondo {
-  background-image: url(https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Web_4-min.jpg);
+.conFondo-lapiz {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo4.jpg?v=1646419698);
   padding-top: 85px;
   background-size: cover;
-  padding-bottom: 320px;
+  padding-bottom: 100px;
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -60px;
 }
-
+.margen-bottom{
+  margin-bottom: 80px !important;
+}
+.cabecera {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 900;
+}
+.cuadro{
+  padding: 30px;
+  border: 3px solid #ffff01;;
+}
+.margentop{
+  margin-top: 40px;
+}
+.titulo-curso1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: transparent;
+  margin-left: 20px;
+  -webkit-text-stroke: 1px #ffff01;
+  line-height: 80px;
+  font-style: italic;
+}
+.titulo-curso2 {
+  font-size: 45px;
+  margin-left: 20px;
+  margin-top: 0;
+  color: #ffff01;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.blanco {
+  color: #fff;
+  font-style: italic;
+}
+img.peque {
+  width: 18%;
+}
+.onex{
+  margin-top:-8%;
+  margin-left: -5%;
+}
 .img-personalizado {
   width: 80%;
   text-align: center;
@@ -417,3 +459,39 @@ div {
 ul.a {
   list-style-type: circle;
 }
+.boton-pago {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  position: relative;
+  top: 0;
+  width: 100%;
+
+}
+.boton-pago:hover {
+  top: -5px;
+}
+.contenedor-atributok {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Klaviyo_Fondo2-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.accordion-button{
+  color:white !important;
+  background-color: #141057 !important
+
+}
+
+
+.accordion-collapse .collapse .show{ 
+
+  background:red;
+
+
+}
+
+.accordion-body{ background:#05041f !important; color:white; }
+
+div#collapseOne .accordion-collapse .collapse .show{ background:red !important }
