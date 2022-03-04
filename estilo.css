@@ -6,11 +6,17 @@ body {
 /*estilo facebook avanzado */
 .parrafo-curso {
   text-align: justify;
-  font-size: 14px;
+  font-size: 16px;
+  margin-top:10px;
+  margin-bottom: 15px;
 }
+.contenedor-btn-pago-negro a{
+  width: 50%;
+}
+
 .parrafo2 {
   text-align: justify;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 }
 .contenedor-margenes {
@@ -36,6 +42,16 @@ body {
 .fondo-seccion5{
   background-color: #000;
 }
+.fondo-seccion7{
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Basico_Fondo3_aa203b3a-af5c-4e4d-864b-7e47c442dde6.jpg?v=1646246099);
+  display: block;
+  background-size: cover;
+  background-position: bottom center;
+  padding-bottom: 30px;
+}
+.seccion-acordeon{
+  background: #010103;
+}
 a.theBtn2 {
   background-color: #ffff01;
   color: #000;
@@ -44,6 +60,11 @@ a.theBtn2 {
   font-style: italic;
   text-decoration: none;
 }
+.encabezado-porque h1{
+  color: #ffff01;
+  font-weight: 800;
+}
+
 a.theBtn2:hover {
   background-color: #fff;
 }
@@ -65,12 +86,35 @@ a.theBtn2:hover {
   line-height: 60px;
   margin-bottom: 20px;
 }
+.titulo3b{
+  color:#ffff01;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0px !important;
+}
+.titulo3b .titulo3b{
+  text-align: center; 
+  font-size: 45px; 
+  font-style: oblique;
+}
+.titulo3b p{
+  text-align: center; color: #fff; font-size: 25px;
+}
 
 .subtitulocurso {
   margin-left: 20px;
   font-size: 20px;
   margin-top: -20px;
-  font-weight: 300;
+  font-weight: 600;
+}
+.conFondo {
+  background-image: url(https://cdn.shopify.com/s/files/1/0610/5648/3573/files/Web_4-min.jpg);
+  padding-top: 85px;
+  background-size: cover;
+  padding-bottom: 320px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -60px;
 }
 
 .img-personalizado {
@@ -95,14 +139,14 @@ a.theBtn2:hover {
   padding: 20px 0px 20px 0px;
 }
 .imagen-porque {
-  width: 85%;
+
   margin: 0 auto;
   text-align: center;
   padding: 30px 0px 30px 0px;
   object-fit: cover;
 }
 .img-esto {
-  width: 80%;
+  
   object-fit: cover;
 }
 .contenedor-imagen-porque {
@@ -132,6 +176,17 @@ img.one1:hover {
   color: #ffff01;
   margin-left: 25px;
 }
+.titulo-tiempo{
+  font-size:45px;
+  font-weight: 700;
+  color: #ffff01;
+  font-style: italic;
+}
+.titulo3b-subtitulo{
+  text-align: center;
+  color: #fff;
+  font-size:25px;
+}
 .col-text-aprenderas{
   padding: 0px !important;
 }
@@ -146,7 +201,7 @@ img.one1:hover {
 .parrafo {
   text-align: justify;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
 }
 .btn-sumate {
   background: #563fc4;
@@ -155,7 +210,7 @@ img.one1:hover {
   text-decoration: none;
   border-radius: 10px;
   padding: 10px 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .btn-sumate:hover{
   color:#fff;
@@ -211,16 +266,17 @@ img.one1:hover {
 a.theBtn22 {
   background-color: #5000d1;
   color: #fff;
-  padding: 10px 30px;
+  padding: 15px 25px;
   border-radius: 10px;
   font-style: italic;
   text-decoration: none;
+  margin-left: 25px;
 }
 a.theBtn22:hover {
   background-color: #000;
 }
 .texto11 {
-  font-size: 15px;
+  font-size: 16px;
   text-align: justify;
   margin-left: 20px;
 }
@@ -237,7 +293,13 @@ a.theBtn22:hover {
 .encabezado-preguntas .titulo-preguntas , .encabezado .titulo{
   text-shadow: 0.1em 0.1em #FDF851;
   color:#4E44EB;
-  font-weight: 700;
+  font-weight: 900;
+  font-style: italic;
+}
+.texto-nivel{
+  color:#4E44EB;
+  font-weight: 900;
+  font-size: 20px;
   font-style: italic;
 }
 .pasar-leer{
@@ -319,7 +381,7 @@ div {
   text-align: center;
   color: #fff;
 
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .titulosct3 {
@@ -350,4 +412,8 @@ div {
 .sct4 {
   height: 100vh;
   background-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/section4.jpg?v=1646334037");
+}
+
+ul.a {
+  list-style-type: circle;
 }
