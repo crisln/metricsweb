@@ -27,10 +27,14 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 20px;
+  background-attachment: fixed;
 }
 .fondo-seccion4{
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo3.jpg?v=1646342173);
   background-position-x: center;
+}
+.fondo-seccion5{
+  background-color: #000;
 }
 a.theBtn2 {
   background-color: #ffff01;
@@ -43,25 +47,28 @@ a.theBtn2 {
 a.theBtn2:hover {
   background-color: #fff;
 }
-.titulo4b {
-  font-size: 6rem;
+
+.titulo-curso1{
+  font-size: 45px;
   font-weight: 700;
   color: transparent;
   margin-left: 20px;
   -webkit-text-stroke: 1px #ffff01;
   line-height: 80px;
+  font-style: italic;
 }
-.titulo3b {
-  font-size: 6rem;
+.titulo-curso2{
+  font-size: 45px;
   margin-left: 20px;
   margin-top: 0;
   color: #ffff01;
   line-height: 60px;
   margin-bottom: 20px;
 }
-.subtitulo3b {
+
+.subtitulocurso {
   margin-left: 20px;
-  font-size: 3rem;
+  font-size: 20px;
   margin-top: -20px;
   font-weight: 300;
 }
@@ -123,6 +130,10 @@ img.one1:hover {
   font-size: 6rem;
   font-weight: 700;
   color: #ffff01;
+  margin-left: 25px;
+}
+.col-text-aprenderas{
+  padding: 0px !important;
 }
 .titulo4b {
   font-size: 6rem;
@@ -183,6 +194,59 @@ img.one1:hover {
   margin-top: 10px;
   margin-left: 20px;
 }
+.titulo11 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #5000d1;
+  margin-left: 20px;
+}
+.subtitulo1 {
+  font-size: 25px;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+.parrafo11 {
+  border-left: 6px solid #5000d1;
+}
+a.theBtn22 {
+  background-color: #5000d1;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-style: italic;
+  text-decoration: none;
+}
+a.theBtn22:hover {
+  background-color: #000;
+}
+.texto11 {
+  font-size: 15px;
+  text-align: justify;
+  margin-left: 20px;
+}
+.pretitulo{
+  color: #5000d1;
+  font-style: italic;
+  font-size: 35px;
+  margin-left: 20px;
+}
+#accordionFlushExample{
+  max-width: 800px;
+  margin:0 auto;
+}
+.encabezado-preguntas .titulo-preguntas , .encabezado .titulo{
+  text-shadow: 0.1em 0.1em #FDF851;
+  color:#4E44EB;
+  font-weight: 700;
+  font-style: italic;
+}
+.pasar-leer{
+  width:70%;
+}
+.encabezado-preguntas{
+  padding:30px 0px 30px 0px;
+}
+
 /* fin estilo facebook avanzado */
 .parrfo {
   text-align: justify;
