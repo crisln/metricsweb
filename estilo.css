@@ -49,6 +49,11 @@ body {
   background-position: bottom center;
   padding-bottom: 30px;
 }
+.fondo-seccion11{
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo_Banner_final.jpg?v=1646421938);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .seccion-acordeon{
   background: #010103;
 }
@@ -68,7 +73,15 @@ a.theBtn2 {
 a.theBtn2:hover {
   background-color: #fff;
 }
-
+.texto_amarillo{
+  color:#ffff01;
+}
+.titulo-mega-pack{
+  font-size: 60px;
+}
+.border-bottom-amarillo{
+  border-bottom: solid 3px #ffff01;
+}
 .titulo-curso1{
   font-size: 45px;
   font-weight: 700;
@@ -118,6 +131,9 @@ a.theBtn2:hover {
 }
 .margen-bottom{
   margin-bottom: 80px !important;
+}
+.ft-letra{
+  font-size: 70px !important;
 }
 .cabecera {
   font-size: 50px;
@@ -251,15 +267,21 @@ img.one1:hover {
   font-style: oblique;
   text-decoration: none;
   border-radius: 10px;
-  padding: 10px 10px;
-  font-size: 16px;
+  padding: 10px 25px;
+  font-size: 15px;
+  margin-left: 25px;
 }
 .btn-sumate:hover{
   color:#fff;
 }
+.contener-amarillo img{
+  position: absolute;
+  
+}
 .color-parrafo{
   color:#4e4e4e;
   text-align: justify;
+  font-size: 16px;
 }
 .padding-diploma{
   padding-left: 10%;
@@ -452,7 +474,9 @@ div {
 }
 
 .sct4 {
-  height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: auto;
   background-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/section4.jpg?v=1646334037");
 }
 
@@ -475,16 +499,19 @@ ul.a {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Klaviyo_Fondo2-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 70px;
+  background-position: center;
 }
-
-
 .accordion-button{
   color:white !important;
   background-color: #141057 !important
 
 }
-
-
+.seccion-acordeon2 {
+  background: #070D07;
+  height: auto;
+  padding-bottom: 40px;
+}
 .accordion-collapse .collapse .show{ 
 
   background:red;
