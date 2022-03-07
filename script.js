@@ -1,14 +1,13 @@
 $(document).ready(function () {
   $(".my-carousel").owlCarousel({
-    items: 1,
     loop: true,
-    autoplay: true,
-    merge: true,
+    margin: 10,
     nav: true,
-    navText: [
-      "<span class='nav-main-slider-btn fa fa-chevron-left'></span>",
-      "<span class='nav-main-slider-btn fa fa-chevron-right'></span>"
-    ],
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    center: true,
+
     responsive: {
       0: {
         items: 2

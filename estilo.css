@@ -1,17 +1,23 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 body {
   margin: 0 auto;
   overflow-x: hidden;
-  font-family: Poppins", Sans-serif;
 }
 /*estilo facebook avanzado */
 .parrafo-curso {
   text-align: justify;
   font-size: 16px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
-.contenedor-btn-pago-negro a{
+.contenedor-btn-pago-negro a {
   width: 50%;
+}
+.seccion-acordeon {
+  padding-bottom: 40px;
+}
+.accordion-body2 {
+  padding: 1rem 1.25rem;
 }
 
 .parrafo2 {
@@ -19,13 +25,51 @@ body {
   font-size: 16px;
   color: #fff;
 }
+
+.parrafo3 {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
 .contenedor-margenes {
   margin-left: 20px;
+}
+.accordion-item {
+  margin-top: 5px;
+  background-color: transparent !important;
+}
+.accordion-item,
+.accordion-item:focus,
+.accordion-item:active,
+.accordion-header,
+.accordion-header:focus,
+.accordion-header:active,
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:active {
+  outline: none !important;
+}
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
 }
 .contenedor-atributo {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo2_c6d217ac-73dd-4214-b4d0-bf4ecb409643.jpg?v=1646315649);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
 }
 .fondo-seccion3 {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Estrellas_1.jpg?v=1646334055);
@@ -34,27 +78,38 @@ body {
   background-position: bottom;
   padding-bottom: 20px;
   background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
-.fondo-seccion4{
+.fondo-seccion4 {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo3.jpg?v=1646342173);
   background-position-x: center;
 }
-.fondo-seccion5{
+.fondo-seccion5 {
   background-color: #000;
 }
-.fondo-seccion7{
+.fondo-seccion7 {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Basico_Fondo3_aa203b3a-af5c-4e4d-864b-7e47c442dde6.jpg?v=1646246099);
   display: block;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
   padding-bottom: 30px;
 }
-.fondo-seccion11{
+
+.fondo-seccion88 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-size: contain;
+  background-position: center;
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_fondo5.jpg?v=1646687139);
+}
+
+.fondo-seccion11 {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo_Banner_final.jpg?v=1646421938);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.seccion-acordeon{
+.seccion-acordeon {
   background: #010103;
 }
 a.theBtn2 {
@@ -65,7 +120,7 @@ a.theBtn2 {
   font-style: italic;
   text-decoration: none;
 }
-.encabezado-porque h1{
+.encabezado-porque h1 {
   color: #ffff01;
   font-weight: 800;
 }
@@ -73,16 +128,16 @@ a.theBtn2 {
 a.theBtn2:hover {
   background-color: #fff;
 }
-.texto_amarillo{
-  color:#ffff01;
+.texto_amarillo {
+  color: #ffff01;
 }
-.titulo-mega-pack{
+.titulo-mega-pack {
   font-size: 60px;
 }
-.border-bottom-amarillo{
+.border-bottom-amarillo {
   border-bottom: solid 3px #ffff01;
 }
-.titulo-curso1{
+.titulo-curso1 {
   font-size: 45px;
   font-weight: 700;
   color: transparent;
@@ -91,7 +146,7 @@ a.theBtn2:hover {
   line-height: 80px;
   font-style: italic;
 }
-.titulo-curso2{
+.titulo-curso2 {
   font-size: 45px;
   margin-left: 20px;
   margin-top: 0;
@@ -99,19 +154,21 @@ a.theBtn2:hover {
   line-height: 60px;
   margin-bottom: 20px;
 }
-.titulo3b{
-  color:#ffff01;
+.titulo3b {
+  color: #ffff01;
   text-align: center;
   font-size: 30px;
   margin-bottom: 0px !important;
 }
-.titulo3b .titulo3b{
-  text-align: center; 
-  font-size: 45px; 
+.titulo3b .titulo3b {
+  text-align: center;
+  font-size: 45px;
   font-style: oblique;
 }
-.titulo3b p{
-  text-align: center; color: #fff; font-size: 25px;
+.titulo3b p {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
 }
 
 .subtitulocurso {
@@ -122,17 +179,20 @@ a.theBtn2:hover {
 }
 .conFondo-lapiz {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo4.jpg?v=1646419698);
-  padding-top: 85px;
+
   background-size: cover;
   padding-bottom: 100px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -60px;
+  margin-top: 0px;
 }
-.margen-bottom{
+.margen {
+  margin-bottom: 15px;
+}
+.margen-bottom {
   margin-bottom: 80px !important;
 }
-.ft-letra{
+.ft-letra {
   font-size: 70px !important;
 }
 .cabecera {
@@ -140,11 +200,13 @@ a.theBtn2:hover {
   color: #fff;
   font-weight: 900;
 }
-.cuadro{
+.cuadro {
   padding: 30px;
-  border: 3px solid #ffff01;;
+  border: 3px solid #ffff01;
+  font-size: 30px;
+  line-height: initial;
 }
-.margentop{
+.margentop {
   margin-top: 40px;
 }
 .titulo-curso1 {
@@ -171,12 +233,16 @@ a.theBtn2:hover {
 img.peque {
   width: 18%;
 }
-.onex{
-  margin-top:-8%;
+.onex {
+  margin-top: -8%;
   margin-left: -5%;
 }
 .img-personalizado {
-  width: 80%;
+  width: 100%;
+  text-align: center;
+}
+.img-personalizado2 {
+  width: 100%;
   text-align: center;
 }
 .container {
@@ -197,14 +263,12 @@ img.peque {
   padding: 20px 0px 20px 0px;
 }
 .imagen-porque {
-
   margin: 0 auto;
   text-align: center;
   padding: 30px 0px 30px 0px;
   object-fit: cover;
 }
 .img-esto {
-  
   object-fit: cover;
 }
 .contenedor-imagen-porque {
@@ -234,18 +298,23 @@ img.one1:hover {
   color: #ffff01;
   margin-left: 25px;
 }
-.titulo-tiempo{
-  font-size:45px;
+.titulo1A {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #ffff01;
+}
+.titulo-tiempo {
+  font-size: 45px;
   font-weight: 700;
   color: #ffff01;
   font-style: italic;
 }
-.titulo3b-subtitulo{
+.titulo3b-subtitulo {
   text-align: center;
   color: #fff;
-  font-size:25px;
+  font-size: 25px;
 }
-.col-text-aprenderas{
+.col-text-aprenderas {
   padding: 0px !important;
 }
 .titulo4b {
@@ -267,31 +336,68 @@ img.one1:hover {
   font-style: oblique;
   text-decoration: none;
   border-radius: 10px;
-  padding: 10px 25px;
+  padding: 15px 25px;
   font-size: 15px;
   margin-left: 25px;
 }
-.btn-sumate:hover{
-  color:#fff;
+.btn-sumate:hover {
+  color: #fff;
+  background-color: #000;
 }
-.contener-amarillo img{
+.contener-amarillo img,
+.img-espaciador {
   position: absolute;
-  
 }
-.color-parrafo{
-  color:#4e4e4e;
+.separado-amarillo {
+  width: 20%;
+  margin: 0 auto;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 30px solid #fff852;
+  margin: 0 auto;
+}
+.linea {
+  background: #fff852;
+  height: 15px;
+}
+.border-top-metodologia {
+  border-top: solid 12px #563fc4;
+}
+.color-parrafo {
+  color: #4e4e4e;
   text-align: justify;
   font-size: 16px;
 }
-.padding-diploma{
-  padding-left: 10%;
-  padding-right: 10%;
-}
-.texto-diploma{
+
+.texto-diploma {
   font-weight: 600;
-  color:#4e4e4e;
+  color: #4e4e4e;
   font-size: 25px;
 }
+
+#crd-group-22 .card-title {
+  color: #c4c4c4;
+  font-family: "Poppins", Sans-serif;
+  font-size: 28px;
+  color: #4e4e4e;
+}
+.lista-icono {
+  list-style-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Captura_de_Pantalla_2022-03-07_a_la_s_12.34.10.png?v=1646669817");
+}
+.card {
+  border-style: none !important;
+}
+
+.texto-diploma3 {
+  font-weight: 700;
+  color: #4e4e4e;
+  font-size: 43px;
+}
+
 .repetidor {
   background-repeat: repeat;
   padding-top: 45px;
@@ -344,36 +450,84 @@ a.theBtn22:hover {
   text-align: justify;
   margin-left: 20px;
 }
-.pretitulo{
+.pretitulo {
   color: #5000d1;
   font-style: italic;
   font-size: 35px;
   margin-left: 20px;
 }
-#accordionFlushExample{
+#accordionFlushExample {
   max-width: 800px;
-  margin:0 auto;
+  margin: 0 auto;
 }
-.encabezado-preguntas .titulo-preguntas , .encabezado .titulo{
-  text-shadow: 0.1em 0.1em #FDF851;
-  color:#4E44EB;
+.encabezado-preguntas .titulo-preguntas,
+.encabezado .titulo {
+  text-shadow: 0.1em 0.1em #fdf851;
+  color: #4e44eb;
   font-weight: 900;
   font-style: italic;
 }
-.texto-nivel{
-  color:#4E44EB;
+.texto-nivel {
+  color: #4e44eb;
   font-weight: 900;
   font-size: 20px;
   font-style: italic;
 }
-.pasar-leer{
-  width:70%;
+.pasar-leer {
+  width: 70%;
 }
-.encabezado-preguntas{
-  padding:30px 0px 30px 0px;
+.encabezado-preguntas {
+  padding: 30px 0px 30px 0px;
+}
+h1 {
+  margin: 0px !important;
+}
+.card-body {
+  padding: 0px !important;
 }
 
-/* fin estilo facebook avanzado */
+@media (max-width: 767px) {
+  .titulo11,
+  .titulo-curso2 {
+    font-size: 25px !important;
+  }
+  .encabezado .titulo-faa {
+    font-size: 30px !important;
+  }
+  .contenedor-margenes {
+    margin-left: 0px !important;
+  }
+  .theBtn2 {
+    padding-bottom: 30px;
+  }
+  .mv {
+    margin-top: 40px;
+  }
+  .row {
+    margin: 10px !important;
+  }
+  .container {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent !important;
+    border-right: 30px solid transparent !important;
+    border-top: 10px solid #fff852 !important;
+    margin: 0 auto;
+    margin-top: -1px;
+  }
+  .linea {
+    background: #fff852;
+    height: 10px;
+  }
+  img.peque {
+    width: 60% !important;
+  }
+}
+/* fin estilo facebook avanzado MATIAS*/
 .parrfo {
   text-align: justify;
   color: #4e4e4e;
@@ -381,6 +535,8 @@ a.theBtn22:hover {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4em;
+}
+h1 {
 }
 
 .flt {
@@ -490,7 +646,6 @@ ul.a {
   position: relative;
   top: 0;
   width: 100%;
-
 }
 .boton-pago:hover {
   top: -5px;
@@ -502,23 +657,162 @@ ul.a {
   padding-bottom: 70px;
   background-position: center;
 }
-.accordion-button{
-  color:white !important;
-  background-color: #141057 !important
+.contenedor-atributoGb {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo2.jpg?v=1646668009);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+  background-position: top center;
+}
 
+.contenedor-atributoGb5 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo3.jpg?v=1646673773);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+  background-position: top center;
+}
+
+.contenedor-atributoGb6 {
+  background: black;
+  padding-bottom: 70px;
+}
+
+.accordion-button {
+  color: white !important;
+  background-color: #141057 !important;
+}
+.accordion-body {
+  background: rgba(0, 0, 0, 6) !important;
+  color: white;
 }
 .seccion-acordeon2 {
-  background: #070D07;
+  background: #070d07;
   height: auto;
   padding-bottom: 40px;
 }
-.accordion-collapse .collapse .show{ 
-
-  background:red;
-
-
+.accordion-collapse .collapse .show {
+  background: red;
 }
 
-.accordion-body{ background:#05041f !important; color:white; }
+div#collapseOne .accordion-collapse .collapse .show {
+  background: red !important;
+}
 
-div#collapseOne .accordion-collapse .collapse .show{ background:red !important }
+.alineado {
+  display: flex;
+  align-items: center;
+}
+
+.sct5-titulo {
+  color: #c4c4c4;
+  font-family: "Poppins", Sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+#sct-id-cont .card-title {
+  color: #4d33f0;
+  font-family: "Poppins", Sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#sct-id-cont .card-text {
+  font-size: 23px;
+  line-height: 1.2em;
+  color: #7a7a7a;
+}
+
+#sct-id-cont {
+  padding-top: 20px;
+}
+
+.sct6-cont {
+  padding: 40px 0px 40px 0px;
+}
+
+.sct7-cont {
+  padding: 90px 0px 70px 0px;
+}
+
+.fs-2 {
+  font-size: 3.5rem !important;
+}
+
+.sct5-title-gb {
+  font-size: 80px;
+
+  font-weight: 700;
+  color: #ffff01;
+}
+
+.sct5-tpt2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffff01;
+}
+
+.sct5-subtitle-gb {
+  color: white;
+  font-size: 35px;
+}
+
+.sct5-parrafo-gb {
+  color: white;
+  text-align: justify;
+}
+.sct-border {
+  border-left: solid 5px;
+  border-color: #ffff01;
+}
+
+.brd-foto-ads {
+  border: 1px solid yellow;
+}
+
+.img-mat-ads {
+  position: absolute;
+  width: 20%;
+  padding-top: 10px;
+}
+.conmargen {
+  margin-bottom: 60px;
+}
+.sumate {
+  margin-top: 25px;
+}
+
+.sct6-title-gb {
+  font-weight: revert;
+  color: black;
+  font-size: 55px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fcfb16;
+}
+
+.sct6-subtitle-gb {
+  font-size: 40px;
+  color: #fcfb16;
+}
+
+.sct6-subtitle2 {
+  font-size: 38px;
+  color: white;
+}
+.owl-nav {
+  text-align: center;
+  font-size: 49px;
+}
+.owl-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.owl-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
