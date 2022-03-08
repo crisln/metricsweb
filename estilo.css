@@ -4041,4 +4041,20 @@ MEDIA QUERY 767
     margin-right: 10%;
     margin-top: 25px;
   }
+  .titulo1A {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffff01;
+  }
+  .titulo4b {
+    font-size: 25px;
+    font-weight: 700;
+    color: transparent;
+    margin-left: 20px;
+    -webkit-text-stroke: 1px #ffff01;
+    line-height: 80px;
+  }
+  .text-centrado {
+    text-align: center;
+  }
 }
