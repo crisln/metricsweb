@@ -348,7 +348,7 @@ img.one1:hover {
   margin-left: 15px;
 }
 .titulo1A {
-  font-size: 6rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #ffff01;
 }
@@ -551,12 +551,7 @@ h1 {
   display: flex;
   align-items: center;
 }
-.alineado-en-linea .titulo1A,
-.alineado-en-linea .titulo4b {
-  font-size: 35px;
-  font-weight: 700;
-  color: #ffff01;
-}
+
 .contenedor-seccion1 {
   margin-bottom: 30px;
 }
@@ -582,6 +577,10 @@ h1 {
   .titulo-curso1-mobil,
   .titulo-curso2-mobil {
     line-height: 30px !important;
+  }
+  .titulo-curso1-mobil {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .encabezado .titulo-faa {
     font-size: 30px !important;
@@ -609,7 +608,7 @@ h1 {
     border-right: 30px solid transparent !important;
     border-top: 10px solid #fff852 !important;
     margin: 0 auto;
-    margin-top: -1px;
+    margin-top: -1%;
   }
   .linea {
     background: #fff852;
@@ -637,10 +636,7 @@ h1 {
   .img-personalizado {
     margin-bottom: 50px;
   }
-  .alineado-en-linea .titulo1A,
-  .alineado-en-linea .titulo4b {
-    font-size: 25px;
-  }
+
   .titulo-marcas {
     font-size: 40px;
   }
@@ -686,6 +682,7 @@ h1 {
   }
 }
 /* fin estilo facebook avanzado MATIAS*/
+
 .parrfo {
   text-align: justify;
   color: #4e4e4e;
@@ -1346,11 +1343,6 @@ img.one1:hover {
   color: #ffff01;
   margin-left: 15px;
 }
-.titulo1A {
-  font-size: 6rem;
-  font-weight: 700;
-  color: #ffff01;
-}
 .titulo-tiempo {
   font-size: 45px;
   font-weight: 700;
@@ -1826,7 +1818,6 @@ div#collapseOne .accordion-collapse .collapse .show {
 .alineado {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .sct5-titulo {
@@ -2365,11 +2356,6 @@ img.one1:hover {
   color: #ffff01;
   margin-left: 15px;
 }
-.titulo1A {
-  font-size: 6rem;
-  font-weight: 700;
-  color: #ffff01;
-}
 .titulo-tiempo {
   font-size: 45px;
   font-weight: 700;
@@ -2568,6 +2554,7 @@ h1 {
 .alineado-en-linea {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .alineado-en-linea .titulo1A,
 .alineado-en-linea .titulo4b {
@@ -2660,7 +2647,7 @@ h1 {
     font-size: 25px;
   }
   .titulo-marcas {
-    font-size: 40px;
+    font-size: 30px;
   }
   .titulo-mega-pack {
     font-size: 50px !important;
@@ -3364,11 +3351,6 @@ img.one1:hover {
   color: #ffff01;
   margin-left: 15px;
 }
-.titulo1A {
-  font-size: 6rem;
-  font-weight: 700;
-  color: #ffff01;
-}
 .titulo-tiempo {
   font-size: 45px;
   font-weight: 700;
@@ -3384,7 +3366,7 @@ img.one1:hover {
   padding: 0px !important;
 }
 .titulo4b {
-  font-size: 6rem;
+  font-size: 3rem;
   font-weight: 700;
   color: transparent;
   margin-left: 20px;
@@ -3652,6 +3634,9 @@ h1 {
   }
   .mobil {
     display: block;
+  }
+  .contenedor-boton-sumate {
+    text-align: center;
   }
 }
 /* fin estilo facebook avanzado MATIAS*/
@@ -4032,5 +4017,28 @@ MEDIA QUERY 767
   }
   .col-md-4.lk {
     margin-top: -45px;
+  }
+  .img-aprenderas {
+    width: 70% !important;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  .one1 {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .row.sinespacio {
+    margin: 0px !important;
+  }
+  .img-personalizado {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
   }
 }
