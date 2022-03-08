@@ -13,6 +13,9 @@ body {
 .contenedor-btn-pago-negro a {
   width: 50%;
 }
+.espaciador-elprofe {
+  margin-top: -4%;
+}
 .seccion-acordeon {
   padding-bottom: 40px;
 }
@@ -83,6 +86,10 @@ label:focus,
 }
 .fondo-seccion4 {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Fondo3.jpg?v=1646342173);
+  background-position-x: center;
+}
+.fondo-seccion4k {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Klaviyo_Fondo3-min.jpg);
   background-position-x: center;
 }
 .fondo-seccion5 {
@@ -287,6 +294,9 @@ img.one1 {
 img.one1:hover {
   top: -5px;
 }
+.img-border {
+  border-radius: 20px;
+}
 .img-aprenderas {
   width: 40%;
   margin-top: 5%;
@@ -362,6 +372,18 @@ img.one1:hover {
 }
 .linea {
   background: #fff852;
+  height: 15px;
+}
+.triangle-down-azul {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 30px solid #4f44eb;
+  margin: 0 auto;
+}
+.linea-azul {
+  background: #4f44eb;
   height: 15px;
 }
 .border-top-metodologia {
@@ -461,7 +483,8 @@ a.theBtn22:hover {
   margin: 0 auto;
 }
 .encabezado-preguntas .titulo-preguntas,
-.encabezado .titulo {
+.encabezado .titulo,
+.encabezado .titulo-faa {
   text-shadow: 0.1em 0.1em #fdf851;
   color: #4e44eb;
   font-weight: 900;
@@ -484,6 +507,16 @@ h1 {
 }
 .card-body {
   padding: 0px !important;
+}
+.alineado-en-linea {
+  display: flex;
+  align-items: center;
+}
+.alineado-en-linea .titulo1A,
+.alineado-en-linea .titulo4b {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffff01;
 }
 
 @media (max-width: 767px) {
@@ -523,8 +556,31 @@ h1 {
     background: #fff852;
     height: 10px;
   }
+  .triangle-down-azul {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent !important;
+    border-right: 30px solid transparent !important;
+    border-top: 10px solid #4f44eb !important;
+    margin: 0 auto;
+  }
+  .linea-azul {
+    background: #4f44eb !important;
+    height: 10px !important;
+  }
   img.peque {
     width: 60% !important;
+  }
+  .encabezado-titulo2 {
+    font-size: 25px;
+    text-align: center !important;
+  }
+  .img-personalizado {
+    margin-bottom: 50px;
+  }
+  .alineado-en-linea .titulo1A,
+  .alineado-en-linea .titulo4b {
+    font-size: 25px;
   }
 }
 /* fin estilo facebook avanzado MATIAS*/
@@ -632,8 +688,12 @@ div {
 .sct4 {
   padding-top: 40px;
   padding-bottom: 40px;
-  height: auto;
-  background-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/section4.jpg?v=1646334037");
+}
+.sct9-back {
+  background-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/DisenoWeb_3.jpg?v=1646744016");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 ul.a {
@@ -665,12 +725,23 @@ ul.a {
   background-position: top center;
 }
 
+.contenedor-atributoGb12 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo_Banner_final-min.jpg?v=1646747677);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+  background-position: center;
+}
+
 .contenedor-atributoGb5 {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo3.jpg?v=1646673773);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 70px;
   background-position: top center;
+}
+.contenedor-atributoGb8 {
+  background: white;
 }
 
 .contenedor-atributoGb6 {
@@ -769,6 +840,11 @@ div#collapseOne .accordion-collapse .collapse .show {
   border-color: #ffff01;
 }
 
+.sct-border2 {
+  border-left: solid 5px;
+  border-color: #2e138f;
+}
+
 .brd-foto-ads {
   border: 1px solid yellow;
 }
@@ -815,4 +891,32 @@ div#collapseOne .accordion-collapse .collapse .show {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.sct8-title-gb {
+  color: #2e138f;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.sct8-subtitle-gb {
+  color: #2e138f;
+}
+
+.sct8-parrafo-gb {
+  color: black;
+}
+
+#accordionFrecuente button {
+  background-color: #3f3f3f !important;
+}
+
+.sct11-back {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo4-min.jpg?v=1646746828);
+
+  background-size: cover;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0px;
 }
