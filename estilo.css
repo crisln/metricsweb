@@ -14,7 +14,7 @@ body {
   width: 50%;
 }
 .espaciador-elprofe {
-  margin-top: -4%;
+  margin-top: 0% !important;
 }
 .seccion-acordeon {
   padding-bottom: 40px;
@@ -287,6 +287,9 @@ img.peque {
 }
 .container {
   margin: 0 auto;
+}
+.contenedor-img img {
+  width: 100%;
 }
 .encabezado-titulo1 {
   font-weight: 700;
@@ -656,9 +659,7 @@ h1 {
   .espaciador-font-size {
     margin-top: 0% !important;
   }
-  .espaciador-elprofe {
-    margin-top: -12% !important;
-  }
+
   .fondo-seccion5 {
     margin-top: -3% !important;
   }
@@ -817,6 +818,11 @@ ul.a {
   background-position: center;
 }
 
+.fondo-seccion6 {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
 .contenedor-sct2-atri-ga {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo2-min.jpg?v=1646831282);
   background-size: cover;
@@ -825,6 +831,13 @@ ul.a {
   background-position: top center;
 }
 
+.contenedor-sct2-fa {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Basico_Fondo2-min.jpg?v=1646852763);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+  background-position: center;
+}
 .contenedor-atributoGb {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo2.jpg?v=1646668009);
   background-size: cover;
@@ -1027,19 +1040,36 @@ div#collapseOne .accordion-collapse .collapse .show {
   color: black;
 }
 
+.accordion-body ul li {
+  text-align: left !important;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/angle-down-solid_1-min.png?v=1646840791) !important;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
 #accordionFrecuente button {
   background-color: #3f3f3f !important;
 }
 
 .parrafo-accordion {
+  padding: 10px 45px;
   line-height: 0;
-  padding: 0;
-  padding-left: 45px;
+
   margin: 0;
 }
 
 #accordionFrecuente {
-  width: 50%;
+  width: 45%;
 }
 
 .sct11-back {
@@ -1053,6 +1083,11 @@ div#collapseOne .accordion-collapse .collapse .show {
 }
 .margenk {
   margin-top: 50px;
+}
+
+.margenes-t-b {
+  padding-top: 50px;
+  padding-bottom: 70px !important;
 }
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 body {
@@ -1069,9 +1104,7 @@ body {
 .contenedor-btn-pago-negro a {
   width: 50%;
 }
-.espaciador-elprofe {
-  margin-top: -4%;
-}
+
 .seccion-acordeon {
   padding-bottom: 40px;
 }
@@ -1151,6 +1184,12 @@ label:focus,
 
 .fondo-seccion4kga {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo3-min.jpg?v=1646833740);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sct-4back-fbb {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/DisenoWeb_FondoBlog-min.jpg?v=1646856335);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2056,9 +2095,7 @@ body {
 .contenedor-btn-pago-negro a {
   width: 50%;
 }
-.espaciador-elprofe {
-  margin-top: -4%;
-}
+
 .seccion-acordeon {
   padding-bottom: 40px;
 }
@@ -2699,9 +2736,7 @@ h1 {
   .espaciador-font-size {
     margin-top: 0% !important;
   }
-  .espaciador-elprofe {
-    margin-top: -12% !important;
-  }
+
   .fondo-seccion5 {
     margin-top: -3% !important;
   }
@@ -3084,9 +3119,7 @@ body {
 .contenedor-btn-pago-negro a {
   width: 50%;
 }
-.espaciador-elprofe {
-  margin-top: -4%;
-}
+
 .seccion-acordeon {
   padding-bottom: 40px;
 }
@@ -4134,6 +4167,15 @@ MEDIA QUERY 767
   background-size: cover;
 }
 
+.sct-fbb-back10 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Basico_Fondo4-min_5ca6e353-3075-42c9-b54f-3497509449a1.jpg?v=1646859024);
+  background-size: cover;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0px;
+}
+
 .sct-ga-back10 {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo4-min.jpg?v=1646837339);
   background-size: cover;
@@ -4146,6 +4188,14 @@ MEDIA QUERY 767
   padding-top: 80px;
   padding-bottom: 80px;
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo_Banner_final-min.jpg?v=1646837899);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.sct-fbb-back11 {
+  padding-bottom: 80px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Basico_Fondo_Banner_final-min.jpg?v=1646859088);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;

@@ -1,0 +1,23 @@
+.fondo-cursos-home {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Estrellas_1.jpg?v=1646334055);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+.fondo-seccion3Home {
+  background: rgb(28, 19, 47);
+  background: linear-gradient(
+    180deg,
+    rgba(28, 19, 47, 1) 0%,
+    rgba(4, 6, 19, 1) 50%,
+    rgba(33, 26, 138, 1) 100%
+  );
+}
+
+.text-white.blancokHome {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: -2px;
+}

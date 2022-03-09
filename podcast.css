@@ -1,0 +1,60 @@
+.triangle-down-azulp {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 30px solid #fff852;
+  margin: 0 auto;
+}
+.linea-azulp {
+  background: #fff852;
+  height: 15px;
+}
+.completo {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/FB_Avanzado_Estrellas_1.jpg?v=1646334055);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.img-fluid.podcast {
+  width: 40%;
+}
+.blancox {
+  color: #fff;
+  text-align: justify;
+}
+.cabecerap {
+  color: #ffff01;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 37px;
+  font-style: italic;
+}
+.img-fluid.fono {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.img-fluid.spotify {
+  width: 60%;
+}
+.txtspo {
+  margin-left: 45px;
+  margin-bottom: 25px;
+}
+.btnP {
+  background-color: #ffff01;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+  border-radius: 10px;
+  margin-left: 45px;
+}
+.btnP:hover {
+  background-color: #fff;
+  color: #000;
+}
