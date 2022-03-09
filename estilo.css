@@ -816,6 +816,15 @@ ul.a {
   padding-bottom: 70px;
   background-position: center;
 }
+
+.contenedor-sct2-atri-ga {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo2-min.jpg?v=1646831282);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+  background-position: top center;
+}
+
 .contenedor-atributoGb {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo2.jpg?v=1646668009);
   background-size: cover;
@@ -866,6 +875,13 @@ ul.a {
   height: auto;
   padding-bottom: 40px;
 }
+.seccion-acordeon3 {
+  background: #070d07;
+  height: auto;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
 .accordion-collapse .collapse .show {
   background: red;
 }
@@ -1015,6 +1031,17 @@ div#collapseOne .accordion-collapse .collapse .show {
   background-color: #3f3f3f !important;
 }
 
+.parrafo-accordion {
+  line-height: 0;
+  padding: 0;
+  padding-left: 45px;
+  margin: 0;
+}
+
+#accordionFrecuente {
+  width: 50%;
+}
+
 .sct11-back {
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Basico_Fondo4-min.jpg?v=1646746828);
 
@@ -1121,6 +1148,13 @@ label:focus,
   background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Klaviyo_Fondo3-min.jpg);
   background-position-x: center;
 }
+
+.fondo-seccion4kga {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo3-min.jpg?v=1646833740);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .fondo-seccion5 {
   background-color: #000;
 }
@@ -4057,4 +4091,62 @@ MEDIA QUERY 767
   .text-centrado {
     text-align: center;
   }
+}
+
+.fondo-seccion1ga {
+  box-shadow: 5px 10px 10px #000000;
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo_1-min.jpg?v=1646829503);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.subtituloga {
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: -10px;
+
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.btn-sumateGa {
+  background: #fffd05;
+  color: #fff;
+  font-style: oblique;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-size: 15px;
+  margin-left: 25px;
+}
+.btn-sumateGa:hover {
+  color: #fff;
+  background-color: #000;
+}
+.fondo-sct-ga {
+  padding-bottom: 70px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo5.jpg?v=1646835301);
+  display: block;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sct-ga-back10 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo4-min.jpg?v=1646837339);
+  background-size: cover;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0px;
+}
+.sct-ga-back11 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_Avanzado_Fondo_Banner_final-min.jpg?v=1646837899);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
