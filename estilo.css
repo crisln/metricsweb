@@ -789,9 +789,9 @@ div {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.sct9-back {
-  background-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/DisenoWeb_3.jpg?v=1646744016");
-  height: 100vh;
+.sct9-back22 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0599/6160/6305/files/DisenoWeb_3-min.jpg?v=1646920586");
+
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -4199,4 +4199,33 @@ MEDIA QUERY 767
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+}
+
+.modal-item-curso {
+  padding: 0px !important;
+}
+
+.modal-cambio {
+  height: auto !important;
+}
+
+.modal-header2 {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.modal-header2 {
+  border-style: none !important;
+}
+
+.modal-responsivo {
+  padding: 50% 0 0 0;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .modal-responsivo {
+    padding: 100% 0 0 0;
+    position: relative;
+  }
 }
