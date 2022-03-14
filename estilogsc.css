@@ -1,0 +1,45 @@
+/*FONDOS*/
+.contenedor-atributo-gsc {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_SearchConsole_Fondo2.jpg?v=1646775107);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.fondo-seccion4-GSC {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_SearchConsole_Fondo3-min.jpg?v=1646833594);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.fondo-seccion7gsc {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_SearchConsole_Fondo6-min.jpg?v=1646834708);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.conFondo-lapizgsc {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_SearchConsole_Fondo4-min.jpg?v=1646838492);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fondo-seccion11gsc {
+  background-image: url(https://cdn.shopify.com/s/files/1/0599/6160/6305/files/Google_SearchConsole_Fondo5-min.jpg?v=1646838581);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*FIN FONDOS */
+.lista-modulo {
+  border-radius: 0 !important;
+  border: 10px solid #1a1a1a !important;
+  border-top: 0px !important;
+}
+.lista-modulo .lista-modulo-item {
+  background: #030200 !important;
+  color: #ffffff;
+}
+.encabezado-lista {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+}
